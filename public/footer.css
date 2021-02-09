@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+a {text-decoration: none;}
+.clearfix{zoom:1;}
+.clearfix:after { /*在类名为“clearfix”的元素内最后面加入内容*/
+    content: "."; /*内容为“.”就是一个英文的句号而已。也可以不写*/
+    display: block; /*加入的这个元素转换为块级元素*/
+    clear: both; /*清除左右两边浮动*/
+    visibility: hidden; /*可见度设为隐藏。注意它和display:none;是有区别的。仍然占据空间，只是看不到而已*/
+    height: 0; /*高度为0*/
+    font-size: 0; /*字体大小为0*/
+    overflow: hidden;
+}
+img {border: 0;vertical-align: top;}
+.footer{
+  width: 1100px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+}
+.footer .contact{
+  width: 300px;
+  padding-right: 50px;
+  border-right: 1px solid #777;
+}
+.footer .contact h4, .footer .friend h4{
+  margin-bottom: 54px;
+  font-size: 18px;
+  color: #333;
+}
+.footer .contact li, .footer .friend li{
+  line-height: 30px;
+  font-size: 12px;
+}
+.footer .friend{
+  width: 150px;
+  padding-right: 50px;
+  padding-left: 100px;
+}
