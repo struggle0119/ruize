@@ -45,3 +45,213 @@
   font-size: 14px;
   cursor: pointer;
 }
+.list{
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.list .part1 .title, .list .part2 .title, .list .part3 .title, .list .part4 .title{
+  font-size: 26px;
+  color: rgb(111,68,135);
+  font-weight: bold;
+}
+.list .part1 .subtitle, .list .part2 .subtitle, .list .part3 .subtitle, .list .part4 .subtitle{
+  font-size: 16px;
+  color: rgb(111,68,135);
+  font-weight: bold;
+}
+.list .part1 .content, .list .part2 .content{
+  position: relative;
+  height: 400px;
+}
+.list .part1 .content img, .list .part2 .content img{
+  width: 500px;
+  margin-top: 20px;
+  position: absolute;
+  left: 300px;
+}
+.list .part1 .content .no{
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;  
+  position: absolute;
+  left: 430px;
+}
+.list .part1 .content .no1{
+  top: 95px;
+}
+.list .part1 .content .no2{
+  top: 185px;
+}
+.list .part1 .content .no3{
+  top: 275px;
+}
+.list .part1 .content .yes{
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;  
+  position: absolute;
+  left: 575px;
+}
+.list .part1 .content .yes1{
+  top: 55px;
+}
+.list .part1 .content .yes2{
+  top: 145px;
+}
+.list .part1 .content .yes3{
+  top: 235px;
+}
+.list .part1 .content .leftword{
+  width: 270px;
+  position: absolute;
+  left: 30px;
+  top: 70px;
+}
+.list .part1 .content .leftword p{
+  font-size: 14px;
+  color: rgb(190,48,56);
+}
+.list .part1 .content .rightword{
+  width: 270px;
+  position: absolute;
+  left: 810px;
+  top: 40px;
+}
+.list .part1 .content .rightword p{
+  font-size: 14px;
+  color: rgb(0,91,186);
+}
+.list .part2{
+  height: 600px;
+}
+.list .part2 .content{
+  margin-top: 30px;
+}
+.list .part2 .content .f{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+.list .part2 .content .f .left{
+  flex: 1;
+}
+.list .part2 .content .f .left .title1{
+  font-size: 20px;
+}
+.list .part2 .content .f .left .content1{
+  font-size: 12px;
+  margin-top: 15px;
+  color: rgb(161,161,161);
+}
+.list .part2 .content .fw{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.list .part2 .content .f .right{
+  color: #fff;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+}
+.list .part3 .content{
+  display: flex;
+  /* justify-content: space-between; */
+}
+.list .part3 .content .leftpart{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list .part3 .content .centerpart{
+  padding: 20px 0;
+  margin-left: 20px;
+}
+.list .part3 .content .rightpart{
+  margin-left: 20px;
+}
+.list .part3 .content .rightpart ul li{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.list .part3 .content .rightpart ul li .num{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(221, 242, 255);
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  color: rgb(100, 127, 147);
+  margin-right: 20px;
+}
+.list .part3 .content .rightpart ul li .rightp .title{
+  font-size: 20px;
+  color: rgb(235, 0, 85);
+  margin-bottom: 5px;
+}
+.list .part3 .content .rightpart ul li .rightp .sub{
+  color: rgb(112, 139, 142);
+}
+.list .part4 .content .c1{
+  margin-top: 30px;
+  width: 100%;
+  height: 400px;
+  background-color: rgb(234, 0, 70);
+  padding: 20px;
+  width: 1060px;
+}
+.list .part4 .content .c1 .title{
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+}
+.list .part4 .content .c1 .subtitle{
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+.list .part4 .content .c1 ul{
+  padding: 30px 80px;
+}
+.list .part4 .content .c1 ul li{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.list .part4 .content .c2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.list .part4 .content .c3{
+  padding-bottom: 50px;
+}
+.list .part4 .content .c3 .top{
+  background-color: rgb(233, 0, 60);
+  display: flex;
+  justify-content: space-around;
+  height: 240px;
+  align-items: center;
+}
+.list .part4 .content .c3 .top li img{
+  width: 150px;
+}
+.list .part4 .content .c3 .bottom{
+  display: flex;
+  justify-content: space-around;
+  height: 150px;
+  align-items: center;
+}
+.list .part4 .content .c3 .bottom li{
+  width: 180px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
