@@ -17,26 +17,34 @@ a {text-decoration: none;}
     overflow: hidden;
 }
 img {border: 0;vertical-align: top;}
+.footer-wrapper{
+  width: 100%;
+  /* background-color: rgb(15, 15, 15); */
+}
 .footer{
+  margin: 0 auto;
   width: 1100px;
   height: 400px;
   margin: 0 auto;
-  padding: 20px 0;
   display: flex;
 }
 .footer .contact{
-  width: 300px;
-  padding-right: 50px;
-  border-right: 1px solid #777;
+  padding: 50px 0;
+  /* border-right: 1px solid #777; */
 }
 .footer .contact h4, .footer .friend h4{
-  margin-bottom: 54px;
+  margin-bottom: 32px;
   font-size: 18px;
-  color: #333;
+  color: rgb(138, 138, 138);
+}
+.footer .contact ul, .footer .friend ul{
+  display: flex;
+  color: rgb(87, 87, 87);
 }
 .footer .contact li, .footer .friend li{
   line-height: 30px;
   font-size: 12px;
+  margin-right: 50px;
 }
 .footer .friend{
   width: 150px;
