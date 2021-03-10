@@ -53,6 +53,5 @@ img {border: 0;vertical-align: top;}
 }
 .footer .beian{
   display: flex;
-  justify-content: space-between;
   font-size: 12px;
 }
